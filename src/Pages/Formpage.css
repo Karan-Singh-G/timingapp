@@ -1,0 +1,43 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.form{
+    width: fit-content;
+  
+   
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 10rem;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 2rem;
+    background-color: rgb(133, 133, 196);
+}
+.form>div{
+    text-align: center;
+    margin-top: 10px;
+}
+button{
+    padding: 10px 20px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    background-color: rgb(163, 193, 119);
+    border: 0px;
+}
+input{
+    padding: 10px 20px;
+}
+select{
+    padding: 10px 20px;
+}
+h1{
+   color: red;
+}
